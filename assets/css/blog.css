@@ -1,0 +1,134 @@
+/* CSS made for laztCMS */
+body {
+	color: #fff;
+    background-color: #181a1b;
+}
+
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-inverse {
+    background-color: #0d47a1;
+    border-color: #0d47a1;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #0a1f3f;
+}
+
+.jumbotron {
+	background-color: #2f3030;
+}
+
+.table > thead > tr > .danger, .table > tbody > tr > .danger, .table > tfoot > tr > .danger, .table > thead > .danger > td, .table > tbody > .danger > td, .table > tfoot > .danger > td, .table > thead > .danger > th, .table > tbody > .danger > th, .table > tfoot > .danger > th {
+    background-color: #414141;
+}
+
+
+#myFooter {
+    background-color: #2f3030;
+    color: white;
+}
+
+#myFooter .row {
+    margin-bottom: 20px;
+}
+
+#myFooter .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #33373e;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float:right;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
