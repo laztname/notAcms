@@ -1,5 +1,5 @@
 # notAcms
-Local File Inclusion to RCE via File Upload 
+Local File Inclusion to RCE via File Upload  
 This is simple implemention of Local File Inclusion vulnerability
 
 ## Please don't deploy this site to production server, this is a vulnerable web
@@ -38,5 +38,5 @@ Nikko Enggaliano
 ```
 
 ## Walkthrough / Write Up
-https://potato.web.id/posts/solution-for-ramadhan-challenges/
+https://potato.web.id/posts/solution-for-ramadhan-challenges/  
 https://youtu.be/qqarbngfrNk
