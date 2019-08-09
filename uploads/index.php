@@ -3,7 +3,7 @@ error_reporting(0);
 if (!isset($_FILES['files'])) {
 	echo "";
 } else {
-	$target_dir = "/var/www/abogoboga/uploads/"; # change this
+	$target_dir = __DIR__."/uploads/";
 	$target_file = $target_dir . basename($_FILES["files"]["name"]);
 	$uploadOk = 1;
 	$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
