@@ -38,5 +38,5 @@ Nikko Enggaliano
 ```
 
 ## Walkthrough / Write Up
-https://potato.web.id/posts/solution-for-ramadhan-challenges/  
+https://potato.id/posts/solution-for-ramadhan-challenges/  
 https://youtu.be/qqarbngfrNk
